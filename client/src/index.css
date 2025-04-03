@@ -6,6 +6,13 @@
 body {
   font-family: "Space Grotesk", sans-serif;
   background-color: #190b1f;
+  overflow-y: auto; 
+  overflow-x: hidden; 
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
 
 h2 {
