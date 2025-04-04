@@ -10,7 +10,7 @@ import Reveal from './Reveal';
 const projects = [
     {
       img: project1,
-      title: "Project #1",
+      title: "Wedding & Engagement",
       description: "UI for frontend development using React.",
       links: {
         site: "#",
@@ -19,7 +19,7 @@ const projects = [
     },
     {
       img: project2,
-      title: "Project #2",
+      title: "Puberty Photoshoot",
       description: "A fullstack application built with Node.js and MongoDB.",
       links: {
         site: "#",
@@ -28,7 +28,7 @@ const projects = [
     },
     {
       img: project4,
-      title: "Project #3",
+      title: "Maternity Photoshoot",
       description: "An e-commerce platform with various features.",
       links: {
         site: "#",
@@ -37,7 +37,7 @@ const projects = [
     },
     {
       img: project5,
-      title: "Project #4",
+      title: "Birthday Shoot",
       description: "A mobile-friendly application using React Native.",
       links: {
         site: "#",
@@ -46,7 +46,43 @@ const projects = [
     },
     {
       img: project6,
-      title: "Project #5",
+      title: "Model Shoot",
+      description: "A data visualization project using D3.js and other libraries.",
+      links: {
+        site: "#",
+        github: "#",
+      },
+    },
+    {
+      img: project6,
+      title: "Product Photography",
+      description: "A data visualization project using D3.js and other libraries.",
+      links: {
+        site: "#",
+        github: "#",
+      },
+    },
+    {
+      img: project6,
+      title: "Munneswaram Photography",
+      description: "A data visualization project using D3.js and other libraries.",
+      links: {
+        site: "#",
+        github: "#",
+      },
+    },
+    {
+      img: project6,
+      title: "Album Design",
+      description: "A data visualization project using D3.js and other libraries.",
+      links: {
+        site: "#",
+        github: "#",
+      },
+    },
+    {
+      img: project6,
+      title: "Video Edits",
       description: "A data visualization project using D3.js and other libraries.",
       links: {
         site: "#",

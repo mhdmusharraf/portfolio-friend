@@ -41,10 +41,11 @@ const Navbar = () => {
             <ul className='hidden md:flex gap-12 z-10 cursor-pointer'>
                 <li><Link to="skills" smooth={true} offset={50} duration={500}>About</Link></li>
                 <li><Link to="portfolio" smooth={true} offset={50} duration={500}>Portfolio</Link></li>
+                <li><Link to="experience" smooth={true} offset={50} duration={500}>Experience</Link></li>
                 <li><Link to="contact" smooth={true} offset={50} duration={500}>Contact</Link></li>
             </ul>
 
-            <div onClick={toggleNav} className='md:hidden z-50 text-gray-200'>
+            <div onClick={toggleNav} className='md:hidden z-50 text-gray-200 cursor-pointer'>
                 {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
             </div>
 
@@ -54,9 +55,10 @@ const Navbar = () => {
             variants={menuVariants}
             className='fixed left-0 top-0 w-full min-h-screen bg-gray-900 z-40'
             >
-                <ul className='font-semibold text-4xl space-y-8 mt-24 text-center'>
+                <ul className='font-semibold text-4xl space-y-8 mt-24 text-center cursor-pointer'>
                     <li><Link to="skills" onClick={closeNav} smooth={true} offset={50} duration={500}>About</Link></li>
                     <li><Link to="portfolio" onClick={closeNav} smooth={true} offset={50} duration={500}>Portfolio</Link></li>
+                    <li><Link to="experience" onClick={closeNav} smooth={true} offset={50} duration={500}>Experience</Link></li>
                     <li><Link to="contact" onClick={closeNav} smooth={true} offset={50} duration={500}>Contact</Link></li>
                 </ul>
 
