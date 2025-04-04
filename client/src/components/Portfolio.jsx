@@ -1,9 +1,13 @@
 import React from 'react';
-import project1 from "../assets/project1.png"
-import project2 from "../assets/project2.png"
-import project4 from "../assets/project4.png"
-import project5 from "../assets/project5.png"
-import project6 from "../assets/project6.png"
+import project1 from "../assets/Wedding.jpg"
+import project2 from "../assets/Puberty.jpg"
+import project3 from "../assets/Maternity.jpg"
+import project4 from "../assets/Birthday.jpg"
+import project5 from "../assets/Bridal.jpg"
+import project6 from "../assets/Product.jpg"
+import project7 from "../assets/Temple.jpg"
+import project8 from "../assets/Album.jpeg"
+import project9 from "../assets/VideoEdits.jpg"
 import { AiFillGithub, AiOutlineGithub } from 'react-icons/ai'
 import Reveal from './Reveal';
 
@@ -19,7 +23,7 @@ const projects = [
     },
     {
       img: project2,
-      title: "Puberty Photoshoot",
+      title: "Puberty Ceremony",
       description: "A fullstack application built with Node.js and MongoDB.",
       links: {
         site: "#",
@@ -27,8 +31,8 @@ const projects = [
       },
     },
     {
-      img: project4,
-      title: "Maternity Photoshoot",
+      img: project3,
+      title: "Maternity Shoot",
       description: "An e-commerce platform with various features.",
       links: {
         site: "#",
@@ -36,7 +40,7 @@ const projects = [
       },
     },
     {
-      img: project5,
+      img: project4,
       title: "Birthday Shoot",
       description: "A mobile-friendly application using React Native.",
       links: {
@@ -45,8 +49,8 @@ const projects = [
       },
     },
     {
-      img: project6,
-      title: "Model Shoot",
+      img: project5,
+      title: "Bridal Photography",
       description: "A data visualization project using D3.js and other libraries.",
       links: {
         site: "#",
@@ -63,8 +67,8 @@ const projects = [
       },
     },
     {
-      img: project6,
-      title: "Munneswaram Photography",
+      img: project7,
+      title: "Temple Photography",
       description: "A data visualization project using D3.js and other libraries.",
       links: {
         site: "#",
@@ -72,7 +76,7 @@ const projects = [
       },
     },
     {
-      img: project6,
+      img: project8,
       title: "Album Design",
       description: "A data visualization project using D3.js and other libraries.",
       links: {
@@ -81,7 +85,7 @@ const projects = [
       },
     },
     {
-      img: project6,
+      img: project9,
       title: "Video Edits",
       description: "A data visualization project using D3.js and other libraries.",
       links: {
