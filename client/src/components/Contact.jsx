@@ -26,7 +26,7 @@ const Contact = () => {
             <div className="flex mt-10 items-center gap-7">
               <div className="bg-gray-800/40 p-4 rounded-lg">
                 <h3 className="md:text-4xl text-2xl font-semibold text-white">
-                  11
+                  50
                   <span>+</span>
                 </h3>
                 <p className="text-xs md:text-base">
@@ -45,7 +45,7 @@ const Contact = () => {
 
               <div className="bg-gray-800/40 p-5 rounded-lg">
                 <h3 className="md:text-4xl text-2xl font-semibold text-white">
-                  30
+                  100
                   <span>+</span>
                 </h3>
                 <p className="text-xs md:text-base">
@@ -56,7 +56,7 @@ const Contact = () => {
           </div>
 
           <form
-            action="https://getform.io/f/placeYourEndpointHere"
+            action="https://getform.io/f/bolmyyra"
             method="POST"
             className=" max-w-6xl p-5 md:p-12"
             id="form"
