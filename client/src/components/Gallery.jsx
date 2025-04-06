@@ -40,8 +40,50 @@ import wedding34 from '../assets/Wedding/34.jpg'
 import wedding35 from '../assets/Wedding/35.jpg'
 
 
-import puberty1 from '../assets/project5.png'
-import puberty2 from '../assets/project6.png'
+import puberty1 from '../assets/Puberty/pu1.jpg'
+import puberty2 from '../assets/Puberty/pu2.jpg'
+import puberty3 from '../assets/Puberty/pu3.jpg'
+import puberty4 from '../assets/Puberty/pu4.jpg'
+import puberty5 from '../assets/Puberty/pu5.jpg'
+import puberty6 from '../assets/Puberty/pu6.jpg'
+import puberty7 from '../assets/Puberty/pu7.jpg'
+import puberty8 from '../assets/Puberty/pu8.jpg'
+import puberty9 from '../assets/Puberty/pu9.jpg'
+import puberty10 from '../assets/Puberty/pu10.jpg'
+import puberty11 from '../assets/Puberty/pu11.jpg'
+import puberty12 from '../assets/Puberty/pu12.jpg'
+import puberty13 from '../assets/Puberty/pu13.jpg'
+import puberty14 from '../assets/Puberty/pu14.jpg'
+import puberty15 from '../assets/Puberty/pu15.jpg'
+import puberty16 from '../assets/Puberty/pu16.jpg'
+import puberty17 from '../assets/Puberty/pu17.jpg'
+import puberty18 from '../assets/Puberty/pu18.jpg'
+import puberty19 from '../assets/Puberty/pu19.jpg'
+import puberty20 from '../assets/Puberty/pu20.jpg'
+import puberty21 from '../assets/Puberty/pu21.jpg'
+import puberty22 from '../assets/Puberty/pu22.jpg'
+import puberty23 from '../assets/Puberty/pu23.jpg'
+import puberty24 from '../assets/Puberty/pu24.jpg'
+import puberty25 from '../assets/Puberty/pu25.jpg'
+import puberty26 from '../assets/Puberty/pu26.jpg'
+import puberty27 from '../assets/Puberty/pu27.jpg'
+import puberty28 from '../assets/Puberty/pu28.jpg'
+import puberty29 from '../assets/Puberty/pu29.jpg'
+import puberty30 from '../assets/Puberty/pu30.jpg'
+import puberty31 from '../assets/Puberty/pu31.jpg'
+import puberty32 from '../assets/Puberty/pu32.jpg'
+import puberty33 from '../assets/Puberty/pu33.jpg'
+import puberty34 from '../assets/Puberty/pu34.jpg'
+import puberty35 from '../assets/Puberty/pu35.jpg'
+import puberty36 from '../assets/Puberty/pu36.jpg'
+import puberty37 from '../assets/Puberty/pu37.jpg'
+import puberty38 from '../assets/Puberty/pu38.jpg'
+import puberty39 from '../assets/Puberty/pu39.jpg'
+import puberty40 from '../assets/Puberty/pu40.jpg'
+import puberty41 from '../assets/Puberty/pu41.jpg'
+import puberty42 from '../assets/Puberty/pu42.jpg'
+import puberty43 from '../assets/Puberty/pu43.jpg'
+
 
 
 // import maternity1 from '../assets/Maternity1.jpg'
@@ -80,7 +122,7 @@ import puberty2 from '../assets/project6.png'
 // Map slugs to imported image arrays
 const galleryImages = {
   'wedding-engagement': [wedding1, wedding2,wedding3,wedding4,wedding5,wedding6,wedding7,wedding8,wedding9,wedding10,wedding11,wedding12,wedding13,wedding14,wedding15,wedding16,wedding17,wedding18,wedding19,wedding20,wedding21,wedding22,wedding23,wedding24,wedding25,wedding26,wedding27,wedding28,wedding29,wedding30,wedding31,wedding32,wedding33,wedding34,wedding35 ],
-   'puberty-ceremony': [puberty1, puberty2],
+   'puberty-ceremony': [puberty1, puberty2,puberty3,puberty4,puberty5,puberty6,puberty7,puberty8,puberty9,puberty10,puberty11,puberty12,puberty13,puberty14,puberty15,puberty16,puberty17,puberty18,puberty19,puberty20,puberty21,puberty22,puberty23,puberty24,puberty25,puberty26,puberty27,puberty28,puberty29,puberty30,puberty31,puberty32,puberty33,puberty34,puberty35,puberty36,puberty37,puberty38,puberty39,puberty40,puberty41,puberty42,puberty43],
 //   'maternity-shoot': [maternity1, maternity2],
 //   'birthday-shoot': [birthday1, birthday2],
   'bridal-photography': [bridal1, bridal2,bridal3,bridal4,bridal5,bridal6,bridal7,bridal8,bridal9,bridal10,bridal11,bridal12,bridal13,bridal14,bridal15,bridal16,bridal17,bridal18],
