@@ -170,10 +170,38 @@ import bridal16 from "../assets/Bridal/mo16.jpg";
 import bridal17 from "../assets/Bridal/mo17.jpg";
 import bridal18 from "../assets/Bridal/mo18.jpg";
 
-// import product1 from '../assets/Product1.jpg'
-// import product2 from '../assets/Product2.jpg'
-// import temple1 from '../assets/Temple1.jpg'
-// import temple2 from '../assets/Temple2.jpg'
+import product1 from "../assets/Product/p1.jpg";
+import product2 from "../assets/Product/p2.jpg";
+import product3 from "../assets/Product/p3.jpg";
+import product4 from "../assets/Product/p4.jpg";
+import product5 from "../assets/Product/p5.jpg";
+import product6 from "../assets/Product/p6.jpg";
+import product7 from "../assets/Product/p7.jpg";
+import product8 from "../assets/Product/p8.jpg";
+import product9 from "../assets/Product/p9.jpg";
+import product10 from "../assets/Product/p10.jpg";
+import product11 from "../assets/Product/p11.jpg";
+import product12 from "../assets/Product/p12.jpg";
+import product13 from "../assets/Product/p13.jpg";
+import product14 from "../assets/Product/p14.jpg";
+import product15 from "../assets/Product/p15.jpg";
+
+import temple1 from "../assets/Temple/k1.JPG";
+import temple2 from "../assets/Temple/k2.JPG";
+import temple3 from "../assets/Temple/k3.JPG";
+import temple4 from "../assets/Temple/k4.JPG";
+import temple5 from "../assets/Temple/k5.JPG";
+import temple6 from "../assets/Temple/k6.JPG";
+import temple7 from "../assets/Temple/k7.JPG";
+import temple8 from "../assets/Temple/k8.JPG";
+import temple9 from "../assets/Temple/k9.JPG";
+import temple10 from "../assets/Temple/k10.JPG";
+import temple11 from "../assets/Temple/k11.JPG";
+import temple12 from "../assets/Temple/k12.JPG";
+import temple13 from "../assets/Temple/k13.JPG";
+import temple14 from "../assets/Temple/k14.JPG";
+import temple15 from "../assets/Temple/k15.JPG";
+
 // import album1 from '../assets/Album1.jpg'
 // import album2 from '../assets/Album2.jpg'
 // import video1 from '../assets/Video1.jpg'
@@ -353,8 +381,40 @@ const galleryImages = {
     bridal17,
     bridal18,
   ],
-  //   'product-photography': [product1, product2],
-  //   'temple-photography': [temple1, temple2],
+  "product-photography": [
+    product1,
+    product2,
+    product3,
+    product4,
+    product5,
+    product6,
+    product7,
+    product8,
+    product9,
+    product10,
+    product11,
+    product12,
+    product13,
+    product14,
+    product15,
+  ],
+  "temple-photography": [
+    temple1,
+    temple2,
+    temple3,
+    temple4,
+    temple5,
+    temple6,
+    temple7,
+    temple8,
+    temple9,
+    temple10,
+    temple11,
+    temple12,
+    temple13,
+    temple14,
+    temple15,
+  ],
   //   'album-design': [album1, album2],
   //   'video-edits': [video1, video2],
 };
