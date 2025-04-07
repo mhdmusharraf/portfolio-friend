@@ -197,6 +197,21 @@ import temple13 from "../assets/Temple/k13.JPG";
 import temple14 from "../assets/Temple/k14.JPG";
 import temple15 from "../assets/Temple/k15.JPG";
 
+import album1img1 from "../assets/Album design/ALBUM_1/ak1.jpg"
+import album1img2 from "../assets/Album design/ALBUM_1/ak2.jpg"
+
+ import album2img1 from "../assets/Album design/ALBUM_2/ac1.jpg"
+ import album2img2 from "../assets/Album design/ALBUM_2/ac2.jpg"
+
+import album3img1 from "../assets/Album design/ALBUM_3/A1.jpg"
+import album3img2 from "../assets/Album design/ALBUM_3/A2.jpg"
+
+import album4img1 from "../assets/Album design/ALBUM_4/Al1.jpg"
+import album4img2 from "../assets/Album design/ALBUM_4/Al2.jpg"
+
+
+
+
 
 
 
@@ -419,5 +434,29 @@ export const galleryImages = {
 { type: "image", src: temple15 },
 
   ],
+  "album-design": {
+    "album1": [
+      { type: "image", src: album1img1 },
+      { type: "image", src: album1img2 },
+      // ...
+    ],
+    album2: [
+      { type: "image", src: album2img1 },
+      { type: "image", src: album2img2 },
+      // ...
+    ],
+    album3: [
+      { type: "image", src: album3img1 },
+      { type: "image", src: album3img2 },
+      // ...
+    ],
+    album4: [
+      { type: "image", src: album4img1 },
+      { type: "image", src: album4img2 },
+      // ...
+    ],
+  },
   
 };
+
+

@@ -86,12 +86,28 @@ const Portfolio = () => {
               <h3 className='text-2xl font-semibold text-gray-200 mb-4'>{project.title}</h3>
               <p className='text-gray-300 mb-4'>{project.description}</p>
               <div>
-                <Link
-                  to={`/gallery/${project.slug}`}
-                  className='px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition duration-300'
-                >
-                  View Gallery
-                </Link>
+                {project.slug === "album-design" ? (
+                  // Four View Album buttons for Album Design
+                  <div className='flex flex-wrap gap-4'>
+                    {[1, 2, 3, 4].map((num) => (
+                      <Link
+                        key={num}
+                        to={`/gallery/album-design/album${num}`}
+                        className='px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition duration-300'
+                      >
+                        View Album {num}
+                      </Link>
+                    ))}
+                  </div>
+                ) : (
+                  // View Gallery button for other sections
+                  <Link
+                    to={`/gallery/${project.slug}`}
+                    className='px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition duration-300'
+                  >
+                    View Gallery
+                  </Link>
+                )}
               </div>
             </div>
           </div>

@@ -39,3 +39,16 @@ span {
 .bg-primary-color {
     @apply bg-purple-600
 }
+
+/* For the gallery */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
