@@ -185,7 +185,7 @@ import temple1 from "../assets/Temple/k1.JPG";
 import temple2 from "../assets/Temple/k2.JPG";
 import temple3 from "../assets/Temple/k3.JPG";
 import temple4 from "../assets/Temple/k4.JPG";
-import temple5 from "../assets/Temple/k5.JPG";
+import temple5 from "../assets/Temple/k5.jpg";
 import temple6 from "../assets/Temple/k6.JPG";
 import temple7 from "../assets/Temple/k7.JPG";
 import temple8 from "../assets/Temple/k8.JPG";
