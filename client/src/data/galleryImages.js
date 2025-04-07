@@ -473,6 +473,15 @@ export const galleryImages = {
     { type: "image", src: temple14 },
     { type: "image", src: temple15 },
   ],
+  "video-edits": [
+  [
+    {
+      type: "vimeo",
+      src: "https://player.vimeo.com/video/1073164590?h=230bdd9c88"
+    }
+  ]
+],
+
   "album-design": {
     album1: [
       { type: "image", src: album1img1 },

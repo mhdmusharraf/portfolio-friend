@@ -8,6 +8,7 @@ import Portfolio from "./components/Portfolio";
 import Skills from "./components/Skills";
 import Gallery from "./components/Gallery";
 import AlbumDesign from "./components/AlbumDesign"; // import the new AlbumDesign component
+import VideoEdits from "./components/VideoEdits";
 
 export default function App() {
   return (
@@ -32,6 +33,7 @@ export default function App() {
         {/* <Route path="/gallery/:slug/:albumId" element={<AlbumDesign />} /> */}
         <Route path="/gallery/album-design/:albumName" element={<AlbumDesign />} />
         <Route path="/gallery/:slug" element={<Gallery />} />
+        <Route path="/video-edits" element={<VideoEdits />} />
       </Routes>
     </>
   );

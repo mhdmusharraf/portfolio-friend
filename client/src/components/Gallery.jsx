@@ -51,25 +51,37 @@ const Gallery = () => {
       </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {mediaItems.map((item, index) =>
-          item.type === "video" ? (
-            <video
-              key={index}
-              controls
-              className="w-full h-auto rounded-lg shadow-md"
-            >
-              <source src={item.src} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          ) : (
-            <img
-              key={index}
-              src={item.src}
-              alt={`gallery-${index}`}
-              className="w-full h-auto object-cover rounded-lg shadow-md"
-            />
-          )
-        )}
+      {mediaItems.map((item, index) =>
+  item.type === "vimeo" ? (
+    <div key={index} className="aspect-w-16 aspect-h-9 w-full rounded-lg shadow-md overflow-hidden">
+      <iframe
+        src={item.src}
+        frameBorder="0"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowFullScreen
+        className="w-full h-full"
+        title={`Vimeo video ${index}`}
+      />
+    </div>
+  ) : item.type === "video" ? (
+    <video
+      key={index}
+      controls
+      className="w-full h-auto rounded-lg shadow-md"
+    >
+      <source src={item.src} type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  ) : (
+    <img
+      key={index}
+      src={item.src}
+      alt={`gallery-${index}`}
+      className="w-full h-auto object-cover rounded-lg shadow-md"
+    />
+  )
+)}
+
       </div>
     </div>
   );

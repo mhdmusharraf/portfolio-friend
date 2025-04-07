@@ -70,40 +70,50 @@ const projects = [
 
 const Portfolio = () => {
   return (
-    <div className='max-w-[1000px] mx-auto p-6 md:my-20' id="portfolio">
-      <h2 className='text-3xl font-bold text-gray-200 mb-8'>Portfolio</h2>
+    <div className="max-w-[1000px] mx-auto p-6 md:my-20" id="portfolio">
+      <h2 className="text-3xl font-bold text-gray-200 mb-8">Portfolio</h2>
       {projects.map((project, index) => (
         <Reveal key={index}>
-          <div className={`flex flex-col md:flex-row ${index % 2 !== 0 ? 'md:flex-row-reverse' : ''} mb-12`}>
-            <div className='w-full md:w-1/2 p-4'>
+          <div
+            className={`flex flex-col md:flex-row ${index % 2 !== 0 ? 'md:flex-row-reverse' : ''} mb-12`}
+          >
+            <div className="w-full md:w-1/2 p-4">
               <img
                 src={project.img}
                 alt={project.title}
-                className='w-full h-full object-cover rounded-lg shadow-lg'
+                className="w-full h-full object-cover rounded-lg shadow-lg"
               />
             </div>
-            <div className='w-full md:w-1/2 p-4 flex flex-col justify-center'>
-              <h3 className='text-2xl font-semibold text-gray-200 mb-4'>{project.title}</h3>
-              <p className='text-gray-300 mb-4'>{project.description}</p>
+            <div className="w-full md:w-1/2 p-4 flex flex-col justify-center">
+              <h3 className="text-2xl font-semibold text-gray-200 mb-4">{project.title}</h3>
+              <p className="text-gray-300 mb-4">{project.description}</p>
               <div>
                 {project.slug === "album-design" ? (
                   // Four View Album buttons for Album Design
-                  <div className='flex flex-wrap gap-4'>
+                  <div className="flex flex-wrap gap-4">
                     {[1, 2, 3, 4].map((num) => (
                       <Link
                         key={num}
                         to={`/gallery/album-design/album${num}`}
-                        className='px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition duration-300'
+                        className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition duration-300"
                       >
                         View Album {num}
                       </Link>
                     ))}
                   </div>
+                ) : project.slug === "video-edits" ? (
+                  // View Video button for Video Edits section
+                  <Link
+                    to="/video-edits" // Route for Video Edits gallery
+                    className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition duration-300"
+                  >
+                    View Video
+                  </Link>
                 ) : (
                   // View Gallery button for other sections
                   <Link
                     to={`/gallery/${project.slug}`}
-                    className='px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition duration-300'
+                    className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition duration-300"
                   >
                     View Gallery
                   </Link>
@@ -114,7 +124,7 @@ const Portfolio = () => {
         </Reveal>
       ))}
     </div>
-  )
-}
+  );
+};
 
-export default Portfolio
+export default Portfolio;
