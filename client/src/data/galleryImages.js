@@ -156,7 +156,7 @@ import bridal7 from "../assets/Bridal/mo7.jpg";
 import bridal8 from "../assets/Bridal/mo8.jpg";
 import bridal9 from "../assets/Bridal/mo9.jpg";
 import bridal10 from "../assets/Bridal/mo10.jpg";
-import bridal11 from "../assets/Bridal/mo11.jpg";
+import bridal11 from "../assets/Bridal/mO11.jpg";
 import bridal12 from "../assets/Bridal/mo12.jpg";
 import bridal13 from "../assets/Bridal/mo13.jpg";
 import bridal14 from "../assets/Bridal/mo14.jpg";
