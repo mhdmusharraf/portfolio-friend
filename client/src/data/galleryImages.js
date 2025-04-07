@@ -197,28 +197,74 @@ import temple13 from "../assets/Temple/k13.JPG";
 import temple14 from "../assets/Temple/k14.JPG";
 import temple15 from "../assets/Temple/k15.JPG";
 
-import album1img1 from "../assets/Album design/ALBUM_1/ak1.jpg"
-import album1img2 from "../assets/Album design/ALBUM_1/ak2.jpg"
+import album1img1 from "../assets/Album design/ALBUM_1/ak1.jpg";
+import album1img2 from "../assets/Album design/ALBUM_1/ak2.jpg";
+import album1img3 from "../assets/Album design/ALBUM_1/ak3.jpg";
+import album1img4 from "../assets/Album design/ALBUM_1/ak4.jpg";
+import album1img5 from "../assets/Album design/ALBUM_1/ak5.jpg";
+import album1img6 from "../assets/Album design/ALBUM_1/ak6.jpg";
+import album1img7 from "../assets/Album design/ALBUM_1/ak7.jpg";
+import album1img8 from "../assets/Album design/ALBUM_1/ak8.jpg";
+import album1img9 from "../assets/Album design/ALBUM_1/ak9.jpg";
+import album1img10 from "../assets/Album design/ALBUM_1/ak10.jpg";
+import album1img11 from "../assets/Album design/ALBUM_1/ak11.jpg";
+import album1img12 from "../assets/Album design/ALBUM_1/ak12.jpg";
+import album1img13 from "../assets/Album design/ALBUM_1/ak13.jpg";
+import album1img14 from "../assets/Album design/ALBUM_1/ak14.jpg";
+import album1img15 from "../assets/Album design/ALBUM_1/ak15.jpg";
+import album1img16 from "../assets/Album design/ALBUM_1/ak16.jpg";
+import album1img17 from "../assets/Album design/ALBUM_1/ak17.jpg";
+import album1img18 from "../assets/Album design/ALBUM_1/ak18.jpg";
+import album1img19 from "../assets/Album design/ALBUM_1/ak19.jpg";
 
- import album2img1 from "../assets/Album design/ALBUM_2/ac1.jpg"
- import album2img2 from "../assets/Album design/ALBUM_2/ac2.jpg"
+import album2img1 from "../assets/Album design/ALBUM_2/ac1.jpg";
+import album2img2 from "../assets/Album design/ALBUM_2/ac2.jpg";
+import album2img3 from "../assets/Album design/ALBUM_2/ac3.jpg";
+import album2img4 from "../assets/Album design/ALBUM_2/ac4.jpg";
+import album2img5 from "../assets/Album design/ALBUM_2/ac5.jpg";
+import album2img6 from "../assets/Album design/ALBUM_2/ac6.jpg";
+import album2img7 from "../assets/Album design/ALBUM_2/ac7.jpg";
+import album2img8 from "../assets/Album design/ALBUM_2/ac8.jpg";
+import album2img9 from "../assets/Album design/ALBUM_2/ac9.jpg";
+import album2img10 from "../assets/Album design/ALBUM_2/ac10.jpg";
+import album2img11 from "../assets/Album design/ALBUM_2/ac11.jpg";
+import album2img12 from "../assets/Album design/ALBUM_2/ac12.jpg";
+import album2img13 from "../assets/Album design/ALBUM_2/ac13.jpg";
+import album2img14 from "../assets/Album design/ALBUM_2/ac14.jpg";
+import album2img15 from "../assets/Album design/ALBUM_2/ac15.jpg";
+import album2img16 from "../assets/Album design/ALBUM_2/ac16.jpg";
+import album2img17 from "../assets/Album design/ALBUM_2/ac17.jpg";
+import album2img18 from "../assets/Album design/ALBUM_2/ac18.jpg";
+import album2img19 from "../assets/Album design/ALBUM_2/ac19.jpg";
+import album2img20 from "../assets/Album design/ALBUM_2/ac20.jpg";
 
-import album3img1 from "../assets/Album design/ALBUM_3/A1.jpg"
-import album3img2 from "../assets/Album design/ALBUM_3/A2.jpg"
+import album3img1 from "../assets/Album design/ALBUM_3/A1.jpg";
+import album3img2 from "../assets/Album design/ALBUM_3/A2.jpg";
+import album3img3 from "../assets/Album design/ALBUM_3/A3.jpg";
+import album3img4 from "../assets/Album design/ALBUM_3/A4.jpg";
+import album3img5 from "../assets/Album design/ALBUM_3/A5.jpg";
+import album3img6 from "../assets/Album design/ALBUM_3/A6.jpg";
+import album3img7 from "../assets/Album design/ALBUM_3/A7.jpg";
+import album3img8 from "../assets/Album design/ALBUM_3/A8.jpg";
+import album3img9 from "../assets/Album design/ALBUM_3/A9.jpg";
+import album3img10 from "../assets/Album design/ALBUM_3/A10.jpg";
+import album3img11 from "../assets/Album design/ALBUM_3/A11.jpg";
+import album3img12 from "../assets/Album design/ALBUM_3/A12.jpg";
+import album3img13 from "../assets/Album design/ALBUM_3/A13.jpg";
 
-import album4img1 from "../assets/Album design/ALBUM_4/Al1.jpg"
-import album4img2 from "../assets/Album design/ALBUM_4/Al2.jpg"
-
-
-
-
-
-
-
-
-
-
-
+import album4img1 from "../assets/Album design/ALBUM_4/Al1.jpg";
+import album4img2 from "../assets/Album design/ALBUM_4/Al2.jpg";
+import album4img3 from "../assets/Album design/ALBUM_4/Al3.jpg";
+import album4img4 from "../assets/Album design/ALBUM_4/Al4.jpg";
+import album4img5 from "../assets/Album design/ALBUM_4/Al5.jpg";
+import album4img6 from "../assets/Album design/ALBUM_4/Al6.jpg";
+import album4img7 from "../assets/Album design/ALBUM_4/Al7.jpg";
+import album4img8 from "../assets/Album design/ALBUM_4/Al8.jpg";
+import album4img9 from "../assets/Album design/ALBUM_4/Al9.jpg";
+import album4img10 from "../assets/Album design/ALBUM_4/Al10.jpg";
+import album4img11 from "../assets/Album design/ALBUM_4/Al11.jpg";
+import album4img12 from "../assets/Album design/ALBUM_4/Al12.jpg";
+import album4img13 from "../assets/Album design/ALBUM_4/Al13.jpg";
 
 export const galleryImages = {
   "wedding-engagement": [
@@ -256,52 +302,52 @@ export const galleryImages = {
     { type: "image", src: wedding32 },
     { type: "image", src: wedding33 },
     { type: "image", src: wedding34 },
-    { type: "image", src: wedding35 }
+    { type: "image", src: wedding35 },
   ],
   "puberty-ceremony": [
     { type: "image", src: puberty1 },
-{ type: "image", src: puberty2 },
-{ type: "image", src: puberty3 },
-{ type: "image", src: puberty4 },
-{ type: "image", src: puberty5 },
-{ type: "image", src: puberty6 },
-{ type: "image", src: puberty7 },
-{ type: "image", src: puberty8 },
-{ type: "image", src: puberty9 },
-{ type: "image", src: puberty10 },
-{ type: "image", src: puberty11 },
-{ type: "image", src: puberty12 },
-{ type: "image", src: puberty13 },
-{ type: "image", src: puberty14 },
-{ type: "image", src: puberty15 },
-{ type: "image", src: puberty16 },
-{ type: "image", src: puberty17 },
-{ type: "image", src: puberty18 },
-{ type: "image", src: puberty19 },
-{ type: "image", src: puberty20 },
-{ type: "image", src: puberty21 },
-{ type: "image", src: puberty22 },
-{ type: "image", src: puberty23 },
-{ type: "image", src: puberty24 },
-{ type: "image", src: puberty25 },
-{ type: "image", src: puberty26 },
-{ type: "image", src: puberty27 },
-{ type: "image", src: puberty28 },
-{ type: "image", src: puberty29 },
-{ type: "image", src: puberty30 },
-{ type: "image", src: puberty31 },
-{ type: "image", src: puberty32 },
-{ type: "image", src: puberty33 },
-{ type: "image", src: puberty34 },
-{ type: "image", src: puberty35 },
-{ type: "image", src: puberty36 },
-{ type: "image", src: puberty37 },
-{ type: "image", src: puberty38 },
-{ type: "image", src: puberty39 },
-{ type: "image", src: puberty40 },
-{ type: "image", src: puberty41 },
-{ type: "image", src: puberty42 },
-{ type: "image", src: puberty43 },
+    { type: "image", src: puberty2 },
+    { type: "image", src: puberty3 },
+    { type: "image", src: puberty4 },
+    { type: "image", src: puberty5 },
+    { type: "image", src: puberty6 },
+    { type: "image", src: puberty7 },
+    { type: "image", src: puberty8 },
+    { type: "image", src: puberty9 },
+    { type: "image", src: puberty10 },
+    { type: "image", src: puberty11 },
+    { type: "image", src: puberty12 },
+    { type: "image", src: puberty13 },
+    { type: "image", src: puberty14 },
+    { type: "image", src: puberty15 },
+    { type: "image", src: puberty16 },
+    { type: "image", src: puberty17 },
+    { type: "image", src: puberty18 },
+    { type: "image", src: puberty19 },
+    { type: "image", src: puberty20 },
+    { type: "image", src: puberty21 },
+    { type: "image", src: puberty22 },
+    { type: "image", src: puberty23 },
+    { type: "image", src: puberty24 },
+    { type: "image", src: puberty25 },
+    { type: "image", src: puberty26 },
+    { type: "image", src: puberty27 },
+    { type: "image", src: puberty28 },
+    { type: "image", src: puberty29 },
+    { type: "image", src: puberty30 },
+    { type: "image", src: puberty31 },
+    { type: "image", src: puberty32 },
+    { type: "image", src: puberty33 },
+    { type: "image", src: puberty34 },
+    { type: "image", src: puberty35 },
+    { type: "image", src: puberty36 },
+    { type: "image", src: puberty37 },
+    { type: "image", src: puberty38 },
+    { type: "image", src: puberty39 },
+    { type: "image", src: puberty40 },
+    { type: "image", src: puberty41 },
+    { type: "image", src: puberty42 },
+    { type: "image", src: puberty43 },
   ],
   "maternity-shoot": [
     { type: "image", src: maternity1 },
@@ -328,135 +374,178 @@ export const galleryImages = {
     { type: "image", src: maternity22 },
     { type: "image", src: maternity23 },
     { type: "image", src: maternity24 },
-
-    
   ],
   "birthday-shoot": [
     { type: "image", src: birthday1 },
-{ type: "image", src: birthday2 },
-{ type: "image", src: birthday3 },
-{ type: "image", src: birthday4 },
-{ type: "image", src: birthday5 },
-{ type: "image", src: birthday6 },
-{ type: "image", src: birthday7 },
-{ type: "image", src: birthday8 },
-{ type: "image", src: birthday9 },
-{ type: "image", src: birthday10 },
-{ type: "image", src: birthday11 },
-{ type: "image", src: birthday12 },
-{ type: "image", src: birthday13 },
-{ type: "image", src: birthday14 },
-{ type: "image", src: birthday15 },
-{ type: "image", src: birthday16 },
-{ type: "image", src: birthday17 },
-{ type: "image", src: birthday18 },
-{ type: "image", src: birthday19 },
-{ type: "image", src: birthday20 },
-{ type: "image", src: birthday21 },
-{ type: "image", src: birthday22 },
-{ type: "image", src: birthday23 },
-{ type: "image", src: birthday24 },
-{ type: "image", src: birthday25 },
-{ type: "image", src: birthday26 },
-{ type: "image", src: birthday27 },
-{ type: "image", src: birthday28 },
-{ type: "image", src: birthday29 },
-{ type: "image", src: birthday30 },
-{ type: "image", src: birthday31 },
-{ type: "image", src: birthday32 },
-{ type: "image", src: birthday33 },
-{ type: "image", src: birthday34 },
-{ type: "image", src: birthday35 },
-{ type: "image", src: birthday36 },
-{ type: "image", src: birthday37 },
-{ type: "image", src: birthday38 },
-{ type: "image", src: birthday39 },
-{ type: "image", src: birthday40 },
-{ type: "image", src: birthday41 },
-{ type: "image", src: birthday42 },
-
-
+    { type: "image", src: birthday2 },
+    { type: "image", src: birthday3 },
+    { type: "image", src: birthday4 },
+    { type: "image", src: birthday5 },
+    { type: "image", src: birthday6 },
+    { type: "image", src: birthday7 },
+    { type: "image", src: birthday8 },
+    { type: "image", src: birthday9 },
+    { type: "image", src: birthday10 },
+    { type: "image", src: birthday11 },
+    { type: "image", src: birthday12 },
+    { type: "image", src: birthday13 },
+    { type: "image", src: birthday14 },
+    { type: "image", src: birthday15 },
+    { type: "image", src: birthday16 },
+    { type: "image", src: birthday17 },
+    { type: "image", src: birthday18 },
+    { type: "image", src: birthday19 },
+    { type: "image", src: birthday20 },
+    { type: "image", src: birthday21 },
+    { type: "image", src: birthday22 },
+    { type: "image", src: birthday23 },
+    { type: "image", src: birthday24 },
+    { type: "image", src: birthday25 },
+    { type: "image", src: birthday26 },
+    { type: "image", src: birthday27 },
+    { type: "image", src: birthday28 },
+    { type: "image", src: birthday29 },
+    { type: "image", src: birthday30 },
+    { type: "image", src: birthday31 },
+    { type: "image", src: birthday32 },
+    { type: "image", src: birthday33 },
+    { type: "image", src: birthday34 },
+    { type: "image", src: birthday35 },
+    { type: "image", src: birthday36 },
+    { type: "image", src: birthday37 },
+    { type: "image", src: birthday38 },
+    { type: "image", src: birthday39 },
+    { type: "image", src: birthday40 },
+    { type: "image", src: birthday41 },
+    { type: "image", src: birthday42 },
   ],
   "bridal-photography": [
     { type: "image", src: bridal1 },
-{ type: "image", src: bridal2 },
-{ type: "image", src: bridal3 },
-{ type: "image", src: bridal4 },
-{ type: "image", src: bridal5 },
-{ type: "image", src: bridal6 },
-{ type: "image", src: bridal7 },
-{ type: "image", src: bridal8 },
-{ type: "image", src: bridal9 },
-{ type: "image", src: bridal10 },
-{ type: "image", src: bridal11 },
-{ type: "image", src: bridal12 },
-{ type: "image", src: bridal13 },
-{ type: "image", src: bridal14 },
-{ type: "image", src: bridal15 },
-{ type: "image", src: bridal16 },
-{ type: "image", src: bridal17 },
-{ type: "image", src: bridal18 },
-
+    { type: "image", src: bridal2 },
+    { type: "image", src: bridal3 },
+    { type: "image", src: bridal4 },
+    { type: "image", src: bridal5 },
+    { type: "image", src: bridal6 },
+    { type: "image", src: bridal7 },
+    { type: "image", src: bridal8 },
+    { type: "image", src: bridal9 },
+    { type: "image", src: bridal10 },
+    { type: "image", src: bridal11 },
+    { type: "image", src: bridal12 },
+    { type: "image", src: bridal13 },
+    { type: "image", src: bridal14 },
+    { type: "image", src: bridal15 },
+    { type: "image", src: bridal16 },
+    { type: "image", src: bridal17 },
+    { type: "image", src: bridal18 },
   ],
   "product-photography": [
     { type: "image", src: product1 },
-{ type: "image", src: product2 },
-{ type: "image", src: product3 },
-{ type: "image", src: product4 },
-{ type: "image", src: product5 },
-{ type: "image", src: product6 },
-{ type: "image", src: product7 },
-{ type: "image", src: product8 },
-{ type: "image", src: product9 },
-{ type: "image", src: product10 },
-{ type: "image", src: product11 },
-{ type: "image", src: product12 },
-{ type: "image", src: product13 },
-{ type: "image", src: product14 },
-{ type: "image", src: product15 },
-
+    { type: "image", src: product2 },
+    { type: "image", src: product3 },
+    { type: "image", src: product4 },
+    { type: "image", src: product5 },
+    { type: "image", src: product6 },
+    { type: "image", src: product7 },
+    { type: "image", src: product8 },
+    { type: "image", src: product9 },
+    { type: "image", src: product10 },
+    { type: "image", src: product11 },
+    { type: "image", src: product12 },
+    { type: "image", src: product13 },
+    { type: "image", src: product14 },
+    { type: "image", src: product15 },
   ],
   "temple-photography": [
     { type: "image", src: temple1 },
-{ type: "image", src: temple2 },
-{ type: "image", src: temple3 },
-{ type: "image", src: temple4 },
-{ type: "image", src: temple5 },
-{ type: "image", src: temple6 },
-{ type: "image", src: temple7 },
-{ type: "image", src: temple8 },
-{ type: "image", src: temple9 },
-{ type: "image", src: temple10 },
-{ type: "image", src: temple11 },
-{ type: "image", src: temple12 },
-{ type: "image", src: temple13 },
-{ type: "image", src: temple14 },
-{ type: "image", src: temple15 },
-
+    { type: "image", src: temple2 },
+    { type: "image", src: temple3 },
+    { type: "image", src: temple4 },
+    { type: "image", src: temple5 },
+    { type: "image", src: temple6 },
+    { type: "image", src: temple7 },
+    { type: "image", src: temple8 },
+    { type: "image", src: temple9 },
+    { type: "image", src: temple10 },
+    { type: "image", src: temple11 },
+    { type: "image", src: temple12 },
+    { type: "image", src: temple13 },
+    { type: "image", src: temple14 },
+    { type: "image", src: temple15 },
   ],
   "album-design": {
-    "album1": [
+    album1: [
       { type: "image", src: album1img1 },
       { type: "image", src: album1img2 },
-      // ...
+      { type: "image", src: album1img3 },
+      { type: "image", src: album1img4 },
+      { type: "image", src: album1img5 },
+      { type: "image", src: album1img6 },
+      { type: "image", src: album1img7 },
+      { type: "image", src: album1img8 },
+      { type: "image", src: album1img9 },
+      { type: "image", src: album1img10 },
+      { type: "image", src: album1img11 },
+      { type: "image", src: album1img12 },
+      { type: "image", src: album1img13 },
+      { type: "image", src: album1img14 },
+      { type: "image", src: album1img15 },
+      { type: "image", src: album1img16 },
+      { type: "image", src: album1img17 },
+      { type: "image", src: album1img18 },
+      { type: "image", src: album1img19 },
     ],
     album2: [
       { type: "image", src: album2img1 },
       { type: "image", src: album2img2 },
-      // ...
+      { type: "image", src: album2img3 },
+      { type: "image", src: album2img4 },
+      { type: "image", src: album2img5 },
+      { type: "image", src: album2img6 },
+      { type: "image", src: album2img7 },
+      { type: "image", src: album2img8 },
+      { type: "image", src: album2img9 },
+      { type: "image", src: album2img10 },
+      { type: "image", src: album2img11 },
+      { type: "image", src: album2img12 },
+      { type: "image", src: album2img13 },
+      { type: "image", src: album2img14 },
+      { type: "image", src: album2img15 },
+      { type: "image", src: album2img16 },
+      { type: "image", src: album2img17 },
+      { type: "image", src: album2img18 },
+      { type: "image", src: album2img19 },
+      { type: "image", src: album2img20 },
     ],
     album3: [
       { type: "image", src: album3img1 },
       { type: "image", src: album3img2 },
-      // ...
+      { type: "image", src: album3img3 },
+      { type: "image", src: album3img4 },
+      { type: "image", src: album3img5 },
+      { type: "image", src: album3img6 },
+      { type: "image", src: album3img7 },
+      { type: "image", src: album3img8 },
+      { type: "image", src: album3img9 },
+      { type: "image", src: album3img10 },
+      { type: "image", src: album3img11 },
+      { type: "image", src: album3img12 },
+      { type: "image", src: album3img13 },
     ],
     album4: [
       { type: "image", src: album4img1 },
       { type: "image", src: album4img2 },
-      // ...
+      { type: "image", src: album4img3 },
+      { type: "image", src: album4img4 },
+      { type: "image", src: album4img5 },
+      { type: "image", src: album4img6 },
+      { type: "image", src: album4img7 },
+      { type: "image", src: album4img8 },
+      { type: "image", src: album4img9 },
+      { type: "image", src: album4img10 },
+      { type: "image", src: album4img11 },
+      { type: "image", src: album4img12 },
+      { type: "image", src: album4img13 },
     ],
   },
-  
 };
-
-

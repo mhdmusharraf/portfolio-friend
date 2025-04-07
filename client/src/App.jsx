@@ -29,7 +29,8 @@ export default function App() {
         />
         
         {/* Gallery route with slug and albumId */}
-        <Route path="/gallery/:slug/:albumId" element={<AlbumDesign />} />
+        {/* <Route path="/gallery/:slug/:albumId" element={<AlbumDesign />} /> */}
+        <Route path="/gallery/album-design/:albumName" element={<AlbumDesign />} />
         <Route path="/gallery/:slug" element={<Gallery />} />
       </Routes>
     </>
